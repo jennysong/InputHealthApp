@@ -1,0 +1,16 @@
+{
+  "resource_type": "payload",
+  "resource_id": "6dd4ca53-3aad-41fb-9951-da23aef7f3de",
+  "style": {
+    "logo_text": "Hola",
+    "logo_type": "text",
+    "background_color": "#9bcb20",
+    "logo_url": "https:\/\/inputhealth.s3.amazonaws.com\/placeholders\/mobile-app-logo-default.png"
+  },
+  "started": false,
+  "finished": false,
+  "auth_page": true,
+  "disclaimer": null,
+  "review_page": true,
+  "time_zone": "-08:00"
+}
