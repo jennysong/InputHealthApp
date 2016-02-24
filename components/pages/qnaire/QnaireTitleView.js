@@ -26,15 +26,17 @@ var inner_container_width = WIDTH * 0.9;
 var webview_height = HEIGHT - 380;
 
 
-  class QnaireTitleView extends Component {
+class QnaireTitleView extends Component {
   constructor(props){
     super(props)
-    this.QnaireAppView = this.props.parent
+    this.appView = this.props.appView
     this.description_css = '<style>p, span{font-family: "Helvetica Neue"; font-size: 11pt !important; font-weight: 300; line-height: 130% !important;}img{max-height: 200px; max-width: 200px; width: auto !important; height: auto !important;}</style>'
-    this.new_description = this.description_css.concat(this.QnaireAppView.QNAIRE_DATA.description)
+    this.new_description = this.description_css.concat(this.appView.QNAIRE_DATA.description)
   }
   _pressedStart() {
-    this.props.navigator.replace({sceneComponent: 'QnaireTypeRadio'})
+    console.log(this.appView)
+    this.appView.render_view('QuestionView', this)
+    //this.props.navigator.replace({sceneComponent: 'QnaireTypeRadio'})
   }
   render() {
     this._refreshStyle()
@@ -42,10 +44,10 @@ var webview_height = HEIGHT - 380;
       <View>
         <View style={this.styles.innerTopContainer}>
           <Text style={this.styles.title}>
-            {this.QnaireAppView.QNAIRE_DATA.name}
+            {this.appView.QNAIRE_DATA.name}
           </Text>
           <Text style={this.styles.estimated_time}>
-            Estimated Time: {this.QnaireAppView.QNAIRE_DATA.attributes.estimated_minutes}min
+            Estimated Time: {this.appView.QNAIRE_DATA.attributes.estimated_minutes}min
           </Text>
         </View>
         <View style={this.styles.innerMidContainer}>
@@ -55,7 +57,7 @@ var webview_height = HEIGHT - 380;
             scalesPageToFit={false}
             scrollEnabled={true}/>
         </View> 
-        <TouchableOpacity onPress = {this._pressedStart}>
+        <TouchableOpacity onPress = {() => {this._pressedStart.call(this)}}>
           <View style={this.styles.innerBottomContainer}>
             <Text style={this.styles.startQnaire}>
               Start Qnaire
@@ -91,7 +93,7 @@ var webview_height = HEIGHT - 380;
         fontSize: 21,
         textAlign: 'center',
         marginTop: 30,
-        color: this.QnaireAppView.title_color
+        color: this.appView.title_color
       },
       estimated_time: {
         fontFamily: 'Helvetica-Light',

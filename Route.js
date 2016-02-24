@@ -11,7 +11,7 @@ import React, {
   View
 } from 'react-native';
 global._ = require('underscore')
-global.App = {}
+
 
 global.WIDTH = Dimensions.get('window').width
 global.HEIGHT = Dimensions.get('window').height
@@ -19,13 +19,14 @@ if (Platform.OS === "android"){
   global.HEIGHT = HEIGHT - 25  //later on change 25 to menu bar height.
 }
 
-
-
-var QnaireAppView = require('./components/pages/qnaire/QnaireAppView')
-//var QnaireTitleView = require('./components/pages/qnaire/QnaireTitleView')
-//var QuestionView = require('./components/pages/qnaire/QuestionView')
-//var QnaireTypeCheckbox = require('./components/pages/qnaire/types/QnaireTypeCheckbox')
-//var QnaireTypeRadio = require('./components/pages/qnaire/types/QnaireTypeRadio')
+global.App = {}
+App.QnaireAppView = require('./components/pages/qnaire/QnaireAppView')
+App.QnaireTitleView = require('./components/pages/qnaire/QnaireTitleView')
+App.QuestionView = require('./components/pages/qnaire/QuestionView')
+App.QnaireTypeCheckbox = require('./components/pages/qnaire/types/QnaireTypeCheckbox')
+App.QnaireTypeRadio = require('./components/pages/qnaire/types/QnaireTypeRadio')
+App.QnaireTypeSlider = require('./components/pages/qnaire/types/QnaireTypeSlider')
+App.ChoiceButton = require('./components/pages/qnaire/types/elements/ChoiceButton')
 
 
 class Route extends Component {
@@ -35,7 +36,7 @@ class Route extends Component {
     		initialRoute = {{sceneComponent: 'QnaireAppView'}}
     	 	renderScene = {(route, navigator) => {
     			return(
-    				React.createElement(eval(route.sceneComponent), navigator = {navigator})
+    				React.createElement(App[route.sceneComponent], navigator = {navigator})
     			)
     		}}
     	/>

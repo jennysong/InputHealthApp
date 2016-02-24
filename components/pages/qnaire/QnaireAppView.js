@@ -14,10 +14,10 @@ import React, {
   StyleSheet,
   View,
 } from 'react-native';
-import QnaireTitleView from './QnaireTitleView'
 
 
-global.QnaireTitleView = QnaireTitleView
+
+//global.QnaireTitleView = QnaireTitleView
 
 class QnaireAppView extends Component {
   constructor(props){
@@ -27,7 +27,7 @@ class QnaireAppView extends Component {
     this.title_color = '#336f65'
     this.inner_container_width = WIDTH * 0.9;
     this.state = {
-      currentView: 'QnaireAppView',
+      prevView: null,
       nextView: 'QnaireTitleView'
     }
   }
@@ -43,13 +43,21 @@ class QnaireAppView extends Component {
         <Image 
           style = {styles.logo}
           source = {{uri: this.QNAIRE_CONFIG_DATA.style.logo_url}} />
-        <View style = {styles.container}>
-          {console.log(global[this.state.nextView])}
-         
+        <View>
+          {React.createElement(App[this.state.nextView], {appView: this, prevView: this.state.prevView})}
         </View>
       </View>
     );
   }
+  render_view(nextView, prevView) {
+    console.log(nextView)
+    console.log(prevView)
+    this.setState({
+      prevView: prevView,
+      nextView: nextView
+    })
+  }
+
 }
 
 
@@ -73,11 +81,6 @@ const styles = StyleSheet.create({
     width: HEIGHT*0.1,   //need to be resized :)
     marginTop: HEIGHT* 0.06,
     marginBottom: HEIGHT * 0.04
-  },
-  container: {
-    width: this.inner_container_width,
-    height: HEIGHT*0.73,
-    backgroundColor: '#eff7f9'
   }
 });
 
