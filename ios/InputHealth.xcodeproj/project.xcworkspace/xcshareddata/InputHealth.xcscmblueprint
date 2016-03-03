@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "625411FE3671546814EC7836F7A9FA84B94B97B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D2909FEB29399D7414840492D0E9B08E2D475A2" : 0,
+    "625411FE3671546814EC7836F7A9FA84B94B97B9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8387D8D9-6943-4FB5-B138-693A7513161C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D2909FEB29399D7414840492D0E9B08E2D475A2" : "",
+    "625411FE3671546814EC7836F7A9FA84B94B97B9" : "InputHealthApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "InputHealth",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/InputHealth.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jennysong\/InputHealthApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "625411FE3671546814EC7836F7A9FA84B94B97B9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jennysong\/muse4muse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D2909FEB29399D7414840492D0E9B08E2D475A2"
+    }
+  ]
+}

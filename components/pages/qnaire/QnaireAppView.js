@@ -22,12 +22,11 @@ import React, {
 class QnaireAppView extends Component {
   constructor(props){
     super(props)
-    this.QNAIRE_DATA = require('./../../../qnaire3.json')
+    this.QNAIRE_DATA = require('./../../../qnaire4.json')
     this.QNAIRE_CONFIG_DATA = require('./../../../configuration.json')
     this.title_color = '#336f65'
     this.inner_container_width = WIDTH * 0.9;
     this.state = {
-      prevView: null,
       nextView: 'QnaireTitleView'
     }
   }
@@ -44,16 +43,13 @@ class QnaireAppView extends Component {
           style = {styles.logo}
           source = {{uri: this.QNAIRE_CONFIG_DATA.style.logo_url}} />
         <View>
-          {React.createElement(App[this.state.nextView], {appView: this, prevView: this.state.prevView})}
+          {React.createElement(App[this.state.nextView], {appView: this})}
         </View>
       </View>
     );
   }
-  render_view(nextView, prevView) {
-    console.log(nextView)
-    console.log(prevView)
+  render_view(nextView) {
     this.setState({
-      prevView: prevView,
       nextView: nextView
     })
   }

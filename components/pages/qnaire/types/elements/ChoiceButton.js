@@ -20,7 +20,7 @@ class ChoiceButton extends Component {
 	}
 
 	render(){
-		if (_.contains(this.parent.selection,this.value))	this.selected = true
+		if (_.contains(this.parent.answer.choice_ids,this.value))	this.selected = true
 		else this.selected = false
 		this._refreshStyle()
 		return(
@@ -40,7 +40,7 @@ class ChoiceButton extends Component {
 		this.styles = StyleSheet.create({
 			button: {
 				width: 300,
-				height: 50,
+				height: 30,
 				backgroundColor: this.selected? 'red':'yellow'
 			}
 		})

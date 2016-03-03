@@ -1,0 +1,918 @@
+{
+  "id": 411,
+  "name": "Physical Symptoms (PHQ-15)",
+  "description": "<p>The PHQ-15 is a brief, self-administered questionnaire that may be useful in screening for somatization and in monitoring somatic symptom severity in clinical practice and research.</p>\n\n<p><span style=\"font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.45em;\"><i>Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from&nbsp; Pfizer Inc. No permission required to reproduce, translate, display or distribute.</i></span><br>\n</p>",
+  "images": {
+    "thumb": "https://s3.amazonaws.com/inputhealth/questionnaires/images/000/000/411/thumb/multiple-choice-test-quiz.jpg?1371511866",
+    "medium": "https://s3.amazonaws.com/inputhealth/questionnaires/images/000/000/411/medium/multiple-choice-test-quiz.jpg?1371511866",
+    "landing": "https://s3.amazonaws.com/inputhealth/questionnaires/images/000/000/411/mobile/multiple-choice-test-quiz.jpg?1371511866"
+  },
+  "attributes": {
+    "result_url": "/questionnaires/411/report",
+    "estimated_minutes": 5,
+    "use_section_break": true,
+    "per_page": 1,
+    "questions_size": 17,
+    "independent_questions_size": 17,
+    "redirect_url": null,
+    "finish_text": null,
+    "warning_duration": 0
+  },
+  "questions": [
+    {
+      "id": 3165,
+      "visible_text": "Stomach pain in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Stomach pain in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8263,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8264,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8265,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3166,
+      "visible_text": "Back pain in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Back pain in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8266,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8267,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8268,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3167,
+      "visible_text": "Pain in your arms, legs, or joints (knees, hips, etc) in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Pain in your arms, legs, or joints (knees, hips, etc) in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8269,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8270,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8271,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3168,
+      "visible_text": "Women only: menstrual cramps or other problems with your periods in the last 4 weeks. ",
+      "note": "",
+      "is_optional": true,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Women only: menstrual cramps or other problems with your periods in the last 4 weeks. ",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8272,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8273,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8274,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3169,
+      "visible_text": "Headaches in the last 4 weeks. ",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Headaches in the last 4 weeks. ",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8275,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8276,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8277,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3180,
+      "visible_text": "Section Break",
+      "note": null,
+      "is_optional": true,
+      "display_type": "break",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": null,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Section Break",
+      "background_image": null,
+      "pictures": [],
+      "choices": []
+    },
+    {
+      "id": 3170,
+      "visible_text": "Chest pain in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Chest pain in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8278,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8279,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8280,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3171,
+      "visible_text": "Dizziness in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Dizziness in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8281,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8282,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8283,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3172,
+      "visible_text": "Fainting spells in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Fainting spells in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8284,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8285,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8286,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3173,
+      "visible_text": "Feeling your heart pound or race in the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Feeling your heart pound or race in the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8287,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8288,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8289,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3174,
+      "visible_text": "Shortness of breath over the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Shortness of breath over the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8290,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8291,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8292,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3181,
+      "visible_text": "Section Break",
+      "note": null,
+      "is_optional": true,
+      "display_type": "break",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": null,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Section Break",
+      "background_image": null,
+      "pictures": [],
+      "choices": []
+    },
+    {
+      "id": 3175,
+      "visible_text": "Pain or problems during sexual intercourse over the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Pain or problems during sexual intercourse over the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8293,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8294,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8295,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3176,
+      "visible_text": "Constipation, loose bowels, or diarrhea over the last 4 weeks.",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Constipation, loose bowels, or diarrhea over the last 4 weeks.",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8296,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8297,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8298,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3177,
+      "visible_text": "Nausea, gas or indigestion over the last 4 weeks. ",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Nausea, gas or indigestion over the last 4 weeks. ",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8299,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8300,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8301,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3178,
+      "visible_text": "Feeling tired or having low energy over the last 4 weeks. ",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Feeling tired or having low energy over the last 4 weeks. ",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8302,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8303,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8304,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 3179,
+      "visible_text": "Trouble sleeping over the last 4 weeks. ",
+      "note": "",
+      "is_optional": false,
+      "display_type": "radio",
+      "provider_label": null,
+      "depends_on_choice_id": null,
+      "is_multi_choice": false,
+      "respondent_property_category": null,
+      "respondent_property_name": null,
+      "slider_prefix": null,
+      "slider_suffix": null,
+      "slider_visible_choice_text": null,
+      "extra": {},
+      "text": "Trouble sleeping over the last 4 weeks. ",
+      "background_image": null,
+      "pictures": [],
+      "choices": [
+        {
+          "id": 8305,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Not bothered at all",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8306,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a little",
+          "picture": {
+            "thumb": ""
+          }
+        },
+        {
+          "id": 8307,
+          "notice": "",
+          "actions": null,
+          "action_details": {},
+          "from": null,
+          "to": null,
+          "text": "Bothered a lot",
+          "picture": {
+            "thumb": ""
+          }
+        }
+      ]
+    }
+  ]
+}

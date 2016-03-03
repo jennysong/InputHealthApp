@@ -34,9 +34,7 @@ class QnaireTitleView extends Component {
     this.new_description = this.description_css.concat(this.appView.QNAIRE_DATA.description)
   }
   _pressedStart() {
-    console.log(this.appView)
-    this.appView.render_view('QuestionView', this)
-    //this.props.navigator.replace({sceneComponent: 'QnaireTypeRadio'})
+    this.appView.render_view('QuestionView')
   }
   render() {
     this._refreshStyle()
